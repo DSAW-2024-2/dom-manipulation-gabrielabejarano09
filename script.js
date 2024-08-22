@@ -34,5 +34,7 @@ left_button.addEventListener("click", function () {
   check();
 });
 
-
+right_button.addEventListener("mouseover", function() {
+    button.style.background;
+})
 
