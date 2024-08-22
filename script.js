@@ -8,6 +8,7 @@ const image = document.getElementById("image");
 let imageNumber = 0;
 const right_button = document.getElementById("right-button");
 const left_button = document.getElementById("left-button");
+const image_box= document.getElementByClassName("image-box");
 image.src = path_to_images[imageNumber];
 left_button.disabled=true;
 function check(){
@@ -22,19 +23,24 @@ function check(){
         right_button.disabled= false;
       }
 }
+
+function animateTransition(direction) {
+  setInterval()
+}
+
 right_button.addEventListener("click", function () {
   imageNumber++;
+  animateTransition(-1);
   image.src = path_to_images[imageNumber];
   check();
 });
 
 left_button.addEventListener("click", function () {
   imageNumber--;
-  image.src = path_to_images[imageNumber];
+  animateTransition(1);
+  image.src= path_to_images[imageNumber];
   check();
 });
 
-right_button.addEventListener("mouseover", function() {
-    button.style.background;
-})
+
 
