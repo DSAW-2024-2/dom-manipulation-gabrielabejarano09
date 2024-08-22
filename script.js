@@ -24,10 +24,6 @@ function check(){
       }
 }
 
-function animateTransition(direction) {
-  setInterval()
-}
-
 right_button.addEventListener("click", function () {
   imageNumber++;
   animateTransition(-1);
