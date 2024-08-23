@@ -1,3 +1,6 @@
+LINK PAGINA DESPLEGADA https://dsaw-2024-2.github.io/dom-manipulation-gabrielabejarano09/
+
+
 # Reto de Carrusel Básico con HTML, CSS y JavaScript
 
 ![Design preview for the Carousel component coding challenge](./assets/mockup.png)
